@@ -31,4 +31,8 @@ services:
     volumes:
       - ca-certificates-etc-ssl:/etc/ssl/
       - ca-certificates-var-cache-apk:/var/cache/apk
+
+volumes:
+  ca-certificates-etc-ssl:
+  ca-certificates-var-cache-apk:
 ```
